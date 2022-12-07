@@ -28,3 +28,18 @@ if composers[3]== 'mvula'
     puts "Sing to the moon"
 end
 
+#Calling the method ".insert" inserts an element at the specified index position. 
+#The syntax for this is `array.insert(2, 'zanzibar') where the integer in parentheses indicates the index position and 'zanzibar' is the element to be inserted into the array.
+#Por ejemplo: 
+composers.insert(4, 'ellington')
+
+# 'ellington' now lives between the elements 'mvula' and 'coleridge-taylor'. 
+puts composers
+
+#This is also possible with other data types.
+puts for_george_boole.insert(7, false)
+
+puts constants.insert(3,0.6434)
+
+puts integers.insert(4, 13)
+
