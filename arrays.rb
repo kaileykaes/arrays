@@ -19,4 +19,12 @@ puts integers
 #This code will print out the resulting array after calling the ".unshift" method to append additional elements to the beginning of the array.
 puts integers.unshift(2, 3, 5)
 
+#Array Indices catalog elements according to the technical counting scheme in base 10. 
+#The following array contains 6 elements indexed in positions 0, 1, 2, 3, 4, & 5
+puts composers
+
+#The following conditional statement will print out the string "Sing to the moon", even though 'mvula' is the fourth element listed in the array.
+if composers[3]== 'mvula'
+    puts "Sing to the moon"
+end
 
